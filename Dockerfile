@@ -11,10 +11,10 @@ COPY web-java/src web-java/src
 
 COPY src src
 
-WORKDIR /app
+WORKDIR /app\
 
 RUN gcc -O2 \
-    src/main.c \
+    src/web_scheduler.c \
     src/scheduler.c \
     src/metrics.c \
     src/fileio.c \
