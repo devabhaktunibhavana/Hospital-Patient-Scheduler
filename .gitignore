@@ -1,0 +1,26 @@
+# Maven
+web-java/target/
+
+# Compiled / temporary files
+*.class
+*.jar
+*.out
+
+# C build files
+a.out
+abc
+hospital_scheduler
+web_scheduler
+
+# Backup files
+*.backup
+*.backup2
+*.save
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
