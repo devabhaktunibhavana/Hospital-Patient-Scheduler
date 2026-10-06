@@ -11,8 +11,6 @@ COPY web-java/src web-java/src
 
 COPY src src
 
-WORKDIR /app\
-
 RUN gcc -O2 \
     src/web_scheduler.c \
     src/scheduler.c \
@@ -23,7 +21,6 @@ RUN gcc -O2 \
 WORKDIR /app/web-java
 
 RUN mvn clean package -DskipTests
-
 
 FROM eclipse-temurin:21-jre
 
