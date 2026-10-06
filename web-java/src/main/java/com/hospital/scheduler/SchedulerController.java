@@ -10,7 +10,7 @@ import java.util.*;
 @CrossOrigin
 public class SchedulerController {
 
-    private static final String C_SCHEDULER = "../web_scheduler";
+    private static final String C_SCHEDULER = "./web_scheduler";
 
     @PostMapping("/schedule")
     public SchedulerResponse schedule(
